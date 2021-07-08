@@ -5,4 +5,4 @@ config :mystex_pizza_on_broadway, MystexPizza.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost",
-  port: 5432
+  port: 5433

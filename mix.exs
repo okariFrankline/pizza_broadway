@@ -26,7 +26,8 @@ defmodule MystexPizza.MixProject do
       {:ecto_sql, "~> 3.2"},
       {:postgrex, ">= 0.0.0"},
       {:jason, "~> 1.1"},
-      {:faker, "~> 0.12.0"}
+      {:faker, "~> 0.12.0"},
+      {:telemetry_metrics, "~> 0.4"},
     ]
   end
 

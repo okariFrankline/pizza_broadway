@@ -5,6 +5,7 @@ defmodule MystexPizza.Application do
 
   def start(_type, _args) do
     children = [
+      Pizza.Telemetry,
       {MystexPizza.Repo, []}
     ]
 
